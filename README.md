@@ -1,5 +1,11 @@
 # Test Router
 
+## Clone this repo
+```sh
+git clone git@github.com:dantenetwork/ink-test-router.git
+cd ./ink-test-router
+```
+
 ## Pull router docker image
 
 ```sh
@@ -21,7 +27,7 @@ Create an account as `Raw seed` and save the seed for configuration.
 ![img](./assets/2.jpg)
 <p align="center">Fig 2. create account, choose Raw seed</p>
 
-You can use one of those accounts, as shown in Fig.2, to transfer token to you router account.
+You can use one of those accounts, as shown in Fig.3, to transfer token to you router account.
 
 ![img](./assets/3.jpg)
 <p align="center">Fig 3. transfer token</p>
@@ -43,6 +49,10 @@ Modify the contents of `.secret`, as shown following.
 ```
 
 For `default.json`, keep `networks.POLKADOTTEST.nodeAddress` and `networks.POLKADOTTEST.crossChainContractAddress` consistent with mentioned in [Ink! Test Guide](https://github.com/dantenetwork/protocol-stack-for-ink/blob/feature-sqos/test/README.md#test-environment).
+
+## Remember to contact us before run the docker as the Testnet is not fully open to the public at this stage  
+
+* discord: `xeeeyu#4107`
 
 ## Run docker
 
