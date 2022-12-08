@@ -1,0 +1,15 @@
+version: '3'
+services:
+  my_router:
+    image: 'registry.us-west-1.aliyuncs.com/cherima/dante:latest'
+    network_mode: host
+    volumes:
+      - './config:/opt/dante/node/config'
+    command:
+      - 'npm run start'
+    logging:
+      driver: json-file
+      options:
+        max-size: 500m
+    container_name: my_router
+  

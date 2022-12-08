@@ -1,0 +1,22 @@
+{
+  "scanInterval": 10,
+  "logLevel": "debug",
+  "secret": "config/.secret",
+  "networks": {
+    "POLKADOTTEST": {
+      "nodeAddress": "ws://3.74.157.177:9944",
+      "crossChainContractAddress": "5C7gWTE4iqyJjsJpxZ8C8EF3Q4m4suyx9Us188deKtsbC917",
+      "compatibleChain": "ink",
+      "receiveChains": ["NEARTEST"]
+    },
+    "NEARTEST": {
+      "networkId": "testnet",
+      "nodeUrl": "https://rpc.testnet.near.org",
+      "walletUrl": "https://wallet.testnet.near.org",
+      "helperUrl": "https://helper.testnet.near.org",
+      "crossChainContractAddress": "170165c66e33a744726f7f8cd36885cc43aa1e55f88273df5c6aed72e45711e6",
+      "receiveChains": [],
+      "compatibleChain": "near"
+    }
+  }
+}
