@@ -62,3 +62,19 @@ $ sudo docker compose up
 $ sudo docker logs -f my_router
 ```
 
+## Register as router
+
+After started the router node, you need to register as a router in the cross chain contract. Enter the account address created in the [Create a router account](./README.md#create-a-router-account).
+
+![img](./assets/5.jpg)
+<p align="center">Fig 5. register</p>
+
+After register, You need to call the `select_routers`, then you will be selected and will start to receive the latest cross-chain messages, as shown in fig 6.
+
+![img](./assets/6.jpg)
+<p align="center">Fig 6. selecte routers</p>
+
+You can view all seleted routers, as shown in fig 7.
+
+![img](./assets/7.jpg)
+<p align="center">Fig 7. show all selected routers</p>
