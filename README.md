@@ -78,3 +78,8 @@ You can view all seleted routers, as shown in fig 7.
 
 ![img](./assets/7.jpg)
 <p align="center">Fig 7. show all selected routers</p>
+
+The default initial credibility of the routers at the time of registration is 4000.
+
+![img](./assets/8.png)
+<p align="center">Fig. 8 registered routers information</p>
