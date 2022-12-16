@@ -1,5 +1,8 @@
 # Test Router
 
+## Prerequisite
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+
 ## Clone this repo
 ```sh
 git clone git@github.com:dantenetwork/ink-test-router.git
