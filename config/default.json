@@ -5,7 +5,7 @@
   "networks": {
     "POLKADOTTEST": {
       "nodeAddress": "ws://3.74.157.177:9944",
-      "crossChainContractAddress": "5F6m6KNv9tz3EvY6GB25xEdPxnNeiuawGeSj9YFtzX7BgWg4",
+      "crossChainContractAddress": "5HVL6rC2GPxsDgt53DjNAqzoZRk6eJ7k1NfBLE1GzqXwWZ4A",
       "compatibleChain": "ink",
       "receiveChains": ["NEARTEST"]
     },
